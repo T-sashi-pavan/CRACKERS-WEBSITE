@@ -1,0 +1,175 @@
+.custom-placeholder::placeholder {
+  color: white;
+}
+
+.form-control-custom {
+  border-radius: 50px 0 0 50px; 
+  padding-right: 60px; 
+}
+
+.button-custom {
+  border-radius: 50%; 
+  position: absolute;
+  right: 10px;
+  height: 90%;
+  width: 30px; 
+  padding: 0;
+  border: 0;
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.input-container .form-control-custom {
+  border-radius: 50px;
+}
+/* styles.css */
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  user-select: none;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-list:focus {
+  outline: none;
+}
+
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+.slick-track:before,
+.slick-track:after {
+  display: table;
+  content: '';
+}
+
+.slick-track:after {
+  clear: both;
+}
+
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+[dir='rtl'] .slick-slide {
+  float: right;
+}
+
+.slick-slide img {
+  display: block;
+}
+
+.slick-slide.slick-loading img {
+  display: none;
+}
+
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+  display: block;
+}
+
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+  display: none;
+}
+/*.card:hover{
+  transform:scale(1.1);
+
+}
+.but:hover{
+  background-color:yellow;
+}*/
+.content:hover{
+  background-color:blueviolet;
+  color:white;
+  transform: scale(1.1);
+  border:3px solid lightslategrey;
+}
+.content{
+  border:3px solid #FFA823;
+  height:200px;
+  width:33%;
+  padding:10px;
+  gap:8px;
+  margin:20px;
+}
+.fullblock{
+  display:flex;
+  justify-content: space-between;
+  height:400px;
+  width:100%;
+  padding:10px 20px 10px 30px;
+}
+.zoom {
+  padding: 0px;
+  transition: transform .2s; 
+  width: 200px;
+  height: 150px;
+  margin: 0 auto;
+  margin: 10px;
+  outline: none; 
+  border: none;
+  gap:0;
+}
+
+.zoom:hover {
+  transform: scale(1.2); 
+  z-index: 2;
+}
+black
+{
+  color: #3F302A;
+}
